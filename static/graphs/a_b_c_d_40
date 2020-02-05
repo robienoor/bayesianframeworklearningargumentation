@@ -1,0 +1,12 @@
+digraph {
+	graph [rankdir=LR]
+	node [shape=square]
+	a -> c [color=black]
+	a -> d [color=black]
+	b -> c [color=white]
+	b -> d [color=white]
+	c -> a [color=white]
+	c -> b [color=black]
+	d -> a [color=white]
+	d -> b [color=black]
+}
