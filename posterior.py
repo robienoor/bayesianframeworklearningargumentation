@@ -6,7 +6,7 @@ def calculatePosteriorDistribution(prior_distribution, liklihood_distribution):
     normalising_constant = np.sum(product)
 
     posterior_distribution = product / normalising_constant
-
+ 
     return posterior_distribution   
 
 
